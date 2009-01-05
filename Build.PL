@@ -9,6 +9,7 @@ my $builder = $build_class->new(
   license             => 'perl',
   dist_version_from   => 'lib/Graph/ChainBuilder.pm',
   requires => {
+    'Class::Accessor::Classy' => 'v0.9.0',
   },
   build_requires => {
     'Module::Build' => 0.26,
